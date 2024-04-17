@@ -1,0 +1,56 @@
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  .add{
+    /* width: 25%; */
+    display: flex;
+    flex-direction: column;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+  }
+  
+  th {
+    color: white;
+    text-align: center;
+    background-color: rgb(41, 64, 79);
+  }
+  
+  td {
+    background-color: rgb(221, 237, 248);
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 18px;
+  }
+  input{
+    width:400px;
+  }
+  .btn{
+    width: 100px;
+    background-color: bisque;
+    align-self:normal;
+  }
